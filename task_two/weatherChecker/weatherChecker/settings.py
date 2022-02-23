@@ -83,9 +83,9 @@ DATABASES = {
 
         'NAME': 'weatherData',
 
-        'USER': 'postgres',
+        'USER': {{DATABASE USERNAME}},
 
-        'PASSWORD': 'dizzy2010',
+        'PASSWORD': {{DATABASE PASSWORD}},
 
         'HOST': 'localhost',
 

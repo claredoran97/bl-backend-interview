@@ -35,6 +35,8 @@ DATABASES = {
 }
 Once Navigated into the project we can then use basic django to start up the App
 
+Make sure to also replace WEATHER_KEY in settings with your openWeather api key. I have provided mine as a sample
+
 ```bash
  python manage.py makemigrations weatherApp
  python manage.py migrate weatherApp

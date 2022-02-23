@@ -10,6 +10,10 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ## Running
 
 To Run this project you will need postgres installed and running
+To start up make sure to activate the environment
+```bash
+source weatherenv/bin/activate
+```
 The details are added into the settings.py file (below), please change as required 
 
 DATABASES = {
